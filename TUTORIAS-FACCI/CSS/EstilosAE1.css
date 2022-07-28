@@ -12,29 +12,40 @@ header{
 body{
     margin: 0;
     padding: 0;
-    background: #ffffff;
+    background: #d4d4d4;
+    font-family: sans-serif;
 }
 
+/*----------------------------SECCION - ACTIVIDADES--------------------------------*/
+
 /*Titulo*/
+/*------------------------------------------*/
 .Titulo-Actividades{
-    margin-top: 12px;
     text-align: center;
     font-size: 30px;
+    transform: translate(0%, 50%);
 }
 
 a{
     text-decoration: none;
     color: black;
     display: inline-flex;
-    padding: 15px;
+    padding: 15px;    
     margin: auto;
     text-align: center;
 }
 
-.Contenedores{
-    margin-top: 125px;
+a button{
+    color: white;
+    background-color: rgb(18, 11, 122);
+    border-radius: 5px;
+    width: 115px;
+    height: 55px;
+    cursor: pointer;
+    margin-right: 40px;
+    border-color: none;
+    transition: .2s;
 }
-
 
 /*Contenedores*/
 /*--------------------------------------------------*/
@@ -45,35 +56,29 @@ input{
     box-sizing: border-box;
     transition: .5s;
 }
+.Contenedores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0%, 3%);
+}
 
 .Contenedores button
 {
-    margin-top: 80px;
-    left: 100%;
     font-size: 20px;
     color: white;
     background-color: rgb(190, 20, 247);
     position: relative;
     border-radius: 10px;
-    cursor: pointer;
-    width: 150px;
-    height: 50px;
+    cursor: pointer;  
 }
 
-.Contenedores button:hover
-{
-    color: white;
-    background-color: rgb(17, 150, 150);
-    width: 150px;
-    height: 50px;
-}
+
+
 /*Contenedor 1*/
 .Contenedores .Contenedor-1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    widows: 700px;
-    transform: translate(-50%, -150%);
+    align-items: center;
+    justify-content: center;
 }
 
 .Contenedor-1 input[type="text"]
@@ -84,25 +89,13 @@ input{
     border: none;
     outline: none;
     padding: 0 25px;
-    margin-right: 340px;
-    transform: translate(0%, -275%);
+    transform: translate(-25%, 50%);
 }
-
-.Contenedor-1 button
-{
-    top: -103PX;
-    margin-left: -94px;
-}
-
-
 
 /*Contenedor 2*/
 .Contenedores .Contenedor-2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    widows: 500px;
-    transform: translate(-50%, -75%);
+    align-items: center;
+    justify-content: center;
 }
 
 .Contenedor-2 input[type="text"]
@@ -113,24 +106,14 @@ input{
     border: none;
     outline: none;
     padding: 0 25px;
-    margin-right: 340px;
-    transform: translate(0%, -200%);
-}
-
-.Contenedor-2 button
-{
-    top: -72PX;
-    margin-left: -395px;
+    transform: translate(-25%, -50%);
 }
 
 
 /*Contenedor 3*/
 .Contenedores .Contenedor-3{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    widows: 500px;
-    transform: translate(-50%, 0%);
+    align-items: center;
+    justify-content: center;
 }
 
 .Contenedor-3 input[type="text"]
@@ -141,24 +124,13 @@ input{
     border: none;
     outline: none;
     padding: 0 25px;
-    margin-right: 340px;
-    transform: translate(0%, -125%);
+    transform: translate(-25%, -150%);
 }
-
-.Contenedor-3 button
-{
-    top: -65PX;
-    margin-left: 656px;
-}
-
 
 /*Contenedor 4*/
 .Contenedores .Contenedor-4{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    widows: 500px;
-    transform: translate(-35%, 75%);
+    align-items: center;
+    justify-content: center;
 }
 
 .Contenedor-4 input[type="text"]
@@ -169,47 +141,67 @@ input{
     border: none;
     outline: none;
     padding: 0 25px;
-    margin-right: 340px;
-    transform: translate(0%, -50%);
+    transform: translate(-25%, -250%);
 }
 
-.Contenedor-4 button
-{
-    top: -64PX;
-    margin-left: 656px;
-}
 
 /*-------Botones Subir Tarea----------*/
 .B1-AE{
-    position: relative;
-    transform: translate(625%, -206%);
+    transform: translate(325%, -80%);
+    width: 150px;
+    height: 50px;  
+}
+
+.B1-AE:hover
+{
+    color: white;
+    background-color: rgb(17, 150, 150);
+    width: 150px;
+    height: 50px;
 }
 
 .B2-AE{
-    position: relative;
-    transform: translate(475%, -55%);
+    transform: translate(325%, -180%);
+    width: 150px;
+    height: 50px;  
+}
+
+.B2-AE:hover
+{
+    color: white;
+    background-color: rgb(17, 150, 150);
+    width: 150px;
+    height: 50px;
 }
 
 .B3-AE{
-    position: relative;
-    transform: translate(325%, 93%);
+    transform: translate(325%, -280%);
+    width: 150px;
+    height: 50px;  
+}
+
+.B3-AE:hover
+{
+    color: white;
+    background-color: rgb(17, 150, 150);
+    width: 150px;
+    height: 50px;
 }
 
 .B4-AE{
-    position: relative;
-    transform: translate(15%, 0%);
+    transform: translate(325%, -380%);
+    width: 150px;
+    height: 50px;  
+}
+
+.B4-AE:hover
+{
+    color: white;
+    background-color: rgb(17, 150, 150);
+    width: 150px;
+    height: 50px;
 }
 /*--------------------------------------*/
-/*a button{
-    color: white;
-    background-color: rgb(18, 11, 122);
-    border-radius: 5px;
-    width: 110px;
-    height: 50px;
-    cursor: pointer;
-    border-color: none;
-    transition: .2s;
-}*/
 
 .LogoUleam{
     display: flex;
@@ -225,27 +217,27 @@ input{
     height:60px;
     width: 190px;
 }
+
 /*Boton Regresar*/
 /*------------------------------------------------*/
-.Contenedor-Regresar button{
+.B5-AE{
     position: relative;
-    margin-top: 250px;
-    left: 400%;
     color: white;
     background-color: rgb(190, 20, 247);
     border-radius: 5px;
-    width: 180px;
-    height: 70px;
+    width: 200px;
+    height: 60px;
     cursor: pointer;
     border-color: none;
     transition: .2s;
     font-size: 20px;
+    transform: translate(100%, -300%);
 }
 
-.Contenedor-Regresar button:hover{
+.B5-AE:hover{
     background-color: rgb(17, 150, 150);
-    width: 180px;
-    height: 70px;
+    width: 200px;
+    height: 60px;
     transition: .2s;
 }
 /*------------------------------------------------*/
@@ -253,7 +245,7 @@ input{
 
 /*footer*/
 footer{
-    top: 580px;
+    margin-top: 40px;
     display: flex;
     bottom: 0;
     left: 0;
