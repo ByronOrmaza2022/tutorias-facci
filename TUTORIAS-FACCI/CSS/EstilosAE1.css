@@ -35,8 +35,9 @@ a{
     margin-top: 125px;
 }
 
-/*Inputs*/
 
+/*Contenedores*/
+/*--------------------------------------------------*/
 input{
     position: relative;
     display: inline-block;
@@ -45,8 +46,6 @@ input{
     transition: .5s;
 }
 
-/*Contenedores*/
-/*--------------------------------------------------*/
 .Contenedores button
 {
     margin-top: 80px;
@@ -155,11 +154,11 @@ input{
 
 /*Contenedor 4*/
 .Contenedores .Contenedor-4{
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     widows: 500px;
-    transform: translate(-50%, 75%);
+    transform: translate(-35%, 75%);
 }
 
 .Contenedor-4 input[type="text"]
@@ -182,19 +181,23 @@ input{
 
 /*-------Botones Subir Tarea----------*/
 .B1-AE{
+    position: relative;
     transform: translate(625%, -206%);
 }
 
 .B2-AE{
+    position: relative;
     transform: translate(475%, -55%);
 }
 
 .B3-AE{
+    position: relative;
     transform: translate(325%, 93%);
 }
 
 .B4-AE{
-    transform: translate(175%, 245%);
+    position: relative;
+    transform: translate(15%, 0%);
 }
 /*--------------------------------------*/
 /*a button{
@@ -223,7 +226,9 @@ input{
     width: 190px;
 }
 /*Boton Regresar*/
+/*------------------------------------------------*/
 .Contenedor-Regresar button{
+    position: relative;
     margin-top: 250px;
     left: 400%;
     color: white;
@@ -243,6 +248,8 @@ input{
     height: 70px;
     transition: .2s;
 }
+/*------------------------------------------------*/
+
 
 /*footer*/
 footer{
